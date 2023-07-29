@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Casas</title>
+  </head>
+  <body>
+    <h1>Listas de casas</h1>
+    <form>
+      <p>
+        <label>Área:</label>
+        <input type="text" name="area" />
+      </p>
+      <p>
+        <label>Número:</label>
+        <input type="text" name="number" />
+      </p>
+      <p>
+        <label>Bairro:</label>
+        <input type="text" name="neighborhood" />
+      </p>
+      <p>
+        <label>Cidade:</label>
+        <input type="text" name="city" />
+      </p>
+      <button onclick="saveHouse()" type="button">Salvar</button>
+    </form>
+    <ul id="house-list"></ul>
+    <script src="./index.js"></script>
+  </body>
+</html>
